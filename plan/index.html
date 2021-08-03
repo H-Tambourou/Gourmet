@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <input id="navToggle" type="checkbox">
+            <div class="icon"><strong>GOURMET</strong></div>
+            <ul class="links">
+                <li><a href="../">home</a></li>
+                <li><a href="plan">plan</a></li>
+            </ul>
+            <label for="navToggle" class="bars">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+
+        </nav>
+        <section id="getStarted">
+            <h1>Lets Gets Started</h1>
+            <div>
+            <form>
+                Conditions:<select name="conditions" class="conditions">
+                    <option value="select">Select</option> 
+                    <option value="Cerobrosvascular Disease">Cerobrosvascular Disease</option> 
+                    <option value="Diabetes">Diabetes</option> 
+                    <option value="Heart Disease">Heart Disease</option> 
+                    <option value="Kidney Disease">Kidney Disease</option> 
+                </select>
+                <br>
+                Age Range:<select name="age" class="age">
+                    <option value="select">Select</option>
+                    <option value="20s">20s</option>
+                    <option value="30s">30s</option>
+                    <option value="40s">40s</option>
+                    <option value="50s">50s</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit" class="formSubmit">
+            </form>
+            </div>
+        </section>
+    </div>
+    
+    <script src="../script1.js"></script>
+</body>
+</html>
